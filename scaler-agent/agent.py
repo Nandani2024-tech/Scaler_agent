@@ -14,7 +14,7 @@ load_dotenv()
 
 # Configuration
 OPENROUTER_API_KEY = os.getenv("NVIDIA_API_KEY") or os.getenv("OPENROUTER_API_KEY")
-PLANNER_MODEL = "mistralai/mistral-7b-instruct"
+PLANNER_MODEL = "meta-llama/llama-3.1-8b-instruct"
 BUILDER_MODEL = "meta-llama/llama-3.1-8b-instruct"
 
 if not OPENROUTER_API_KEY:
